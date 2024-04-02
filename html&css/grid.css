@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    margin: 30px;
+    text-align: center;
+}
+p{
+    margin: 20px;
+    font-size: 1.5rem;
+    padding: 30px;
+    
+    background-color: antiquewhite;
+}
+.section{
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-gap: 30px;
+}
+/* grid-template-columns: repeat(3,fr); */
+/* grid-template-columns: 1fr 1fr 1fr */
+
+    /* grid-columns:1/ span 2; */
+    /* grid-column-start: 1(line mate); */
+    /* grid-column-end: 3(line mate); */
+    /* place-self: center(jenathi alin & justify ny lakhavupade); */

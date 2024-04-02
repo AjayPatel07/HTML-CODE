@@ -1,0 +1,382 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Tauri", sans-serif;
+    /* font-weight: 400;
+    font-style: normal; */
+
+
+}
+
+#nav {
+    background-color: rgb(170, 211, 219);
+    /* rgb(218, 216, 137); */
+    padding: 7px;
+    display: flex;
+    justify-content: space-between;
+    /* height: 100px; */
+}
+
+#had-name {
+    display: flex;
+
+}
+
+#logo {
+    height: 100px;
+    width: 100px;
+    border-radius: 100px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#gh1 {
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: 3rem;
+}
+
+.alink {
+    text-decoration: none;
+    font-size: 1.4rem;
+    padding-right: 35px;
+    font-weight: 500;
+    color: black;
+
+}
+
+#anker {
+    padding-top: 50px;
+}
+#section1{
+    width:90%;
+    height: 630px;
+    background-color: beige;
+    margin-top: 35px;
+    margin-right: 65px;
+    margin-left: 65px;
+    /* background-image: url(../imeg/tv\,mobail.png) */
+    
+}
+#img1{
+    width:100%;
+    height: 630px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+#section2{
+    /* margin-top: 65px; */
+    margin-right: 70px;
+    margin-left: 70px;
+    width: 92%;
+    display: flex;
+    gap: 20px;
+    /* background-color: brown; */
+    
+    
+}
+#hedline{
+    font-size: 3.5rem;
+    font-weight: 550;
+    margin-right: 70px;
+    margin-left: 70px;
+    margin-top: 65px;
+    /* background-color: aliceblue; */
+}
+#span1{
+    font-size: 2rem;
+    line-height: 60px;
+    margin-top: 50px;
+    /* background-color: rgb(27, 102, 169); */
+    /* font-weight: 00; */
+  
+}
+#imgcombo{
+    height: 600px;
+    width: 70%;
+    border-radius: 56px;
+    margin-top: -40px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+.section3{
+    margin-right: 70px;
+    margin-left: 70px;
+    width: 92%;
+    background-color: white;
+    height: 600%;
+    padding-top: 80px;
+    padding-left: 10px;
+    display: flex;
+}
+.product{
+    height: 330px;
+    width: 290px;
+    border-radius: 30px;
+    /* margin-top: 160px; */
+    background-color: white;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+.pimg{
+    height: 250px;
+    margin-left:20px;
+    margin-right:20px;
+    margin-top: -50px;
+    border-radius: 30px;
+    /* background-color: white; */
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+
+}
+.p1{
+    padding-left:24px;
+    font-size: 1.7rem;
+    margin-top: 10px;
+
+}
+.p2{
+    padding-left:24px;
+    font-size: 1rem;
+    margin-top: 6px;
+    opacity: 0.5;
+}
+.p3{
+    margin-top: 7px;
+    font-weight: 800;
+    /* font-size: 1.7rem; */
+    padding-left:24px;
+    padding-right:24px;
+    justify-content: space-between;
+    width: 84%;
+    display: flex;
+    /* background-color: aquamarine; */
+}
+.span1{
+    font-size: 1.8rem;
+}
+.span2{
+    font-size: 1.2rem;
+    padding-top: 8px;
+}
+.span2 i{
+    font-size: 1.7rem;
+    /* padding-top: 8px; */
+}
+.block1{
+    margin-top: 120px;
+}
+.product-1-1{
+    height: 530px;
+    width: 490px;
+    border-radius: 30px;
+    /* margin-top: 160px; */
+    background-color: white;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+.block1-1{
+margin-top: 120px;
+}
+.pimg-1{
+    height: 450px;
+    margin-left:20px;
+    margin-right:20px;
+    margin-top: -60px;
+    border-radius: 30px;
+    /* background-color: white; */
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+
+}
+.p1-1{
+    padding-left:24px;
+    font-size: 1.7rem;
+    margin-top: 10px;
+
+}
+.p2-1{
+    padding-left:24px;
+    font-size: 1rem;
+    margin-top: 6px;
+    opacity: 0.5;
+}
+.p3-1{
+    margin-top: 7px;
+    font-weight: 800;
+    /* font-size: 1.7rem; */
+    padding-left:24px;
+    padding-right:24px;
+    justify-content: space-between;
+    width: 84%;
+    display: flex;
+    /* background-color: aquamarine; */
+}
+.span1-1{
+    font-size: 1.8rem;
+}
+.span2-1{
+    font-size: 1.2rem;
+    padding-top: 8px;
+    
+}
+.span2-1 i{
+    font-size: 1.7rem;
+    /* padding-top: 8px; */
+}
+.rdiv1{
+    margin-left: 50px;
+    
+}
+.rmain{
+    display: flex;
+}
+.right-lefttext{
+    /* background-color: aqua; */
+    width: 450px;
+    height: 570px;
+    margin-top: 80px;
+    margin-left: 30px;
+}
+.right-lefttext{
+    padding-top: 10px;
+
+}
+.rl{
+    display: flex;
+    justify-content: space-between;
+}
+.review{
+    font-size: 2.5rem;
+    font-weight: normal;
+    opacity: 0.7;
+}
+.star i{
+    font-size: 1rem;
+    padding-top: 16px;
+    margin-right: 8px;
+    color:  rgb(75, 191, 214);
+    
+}
+.rl2{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    /* padding-left: 10px; */
+    padding-right: 20px;
+}
+.product_1{
+    font-size: 2.9rem;
+}
+.paesa{
+    margin-top: 20px;
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+.peregraf{
+    margin-top: 20px;
+    line-height: 40px;
+    margin-bottom: 10px;
+    opacity: 0.5;
+}
+.sosialmedia i {
+    font-size: 3rem;
+    padding-top: 16px;
+    margin-right: 8px;
+    color:  rgb(75, 191, 214);
+    /* background-color: beige; */
+    justify-content: space-between;
+    margin-left: 70px;
+}
+.sosialmedia i:hover{
+    color: gray;
+}
+.btn-0{
+    display: flex;
+
+    margin-top: 20px;
+}
+.button1 {
+    background-color: rgb(75, 191, 214); /* Green background */
+    border: 4px solid #5cebe4; /* Green border */
+    color: white; /* White text */
+    padding: 10px 20px; /* Padding */
+    text-align: center; /* Center text */
+    text-decoration: none; /* Remove underline */
+    display: inline-block; /* Display as inline block */
+    font-size: 16px; /* Font size */
+    margin: 10px 5px; /* Margin around the button */
+    cursor: pointer; /* Cursor on hover */
+    border-radius: 60px; /* Rounded corners */
+    width: 210px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+.button1:hover{
+    background-color: rgb(117, 207, 240);
+    font-size: 16px; /* Font size */
+    color: black;
+    border:4px solid white; /* Green border */
+    padding: 10px 20px; /* Padding */
+    text-align: center; /* Center text */
+    text-decoration: none; /* Remove underline */
+    font-size: 16px; /* Font size */
+    margin: 10px 5px; /* Margin around the button */
+    cursor: pointer; /* Cursor on hover */
+    border-radius: 60px; /* Rounded corners */
+    width: 210px;
+    
+}
+
+
+
+.button2 {
+    background-color: rgb(75, 191, 214); /* Green background */
+    border: 4px solid #5cebe4; /* Green border */
+    color: white; /* White text */
+    padding: 10px 20px; /* Padding */
+    text-align: center; /* Center text */
+    text-decoration: none; /* Remove underline */
+    display: inline-block; /* Display as inline block */
+    font-size: 16px; /* Font size */
+    margin: 10px 5px; /* Margin around the button */
+    cursor: pointer; /* Cursor on hover */
+    border-radius: 60px; /* Rounded corners */
+    width: 170px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+.button2:hover{
+    background-color: rgb(117, 207, 240);
+    font-size: 16px; /* Font size */
+    color: black;
+    border:4px solid white; /* Green border */
+    padding: 10px 20px; /* Padding */
+    text-align: center; /* Center text */
+    text-decoration: none; /* Remove underline */
+    font-size: 16px; /* Font size */
+    margin: 10px 5px; /* Margin around the button */
+    cursor: pointer; /* Cursor on hover */
+    border-radius: 60px; /* Rounded corners */
+    width: 170px;
+    
+}
+.rdiv-2{
+    display: flex;
+    margin-top: 360px;
+    /* padding-left: 40px;
+    margin-right: 60px; */
+}
+
+.product-a{
+    margin-left: 40px;
+    height: 330px;
+    width: 290px;
+    border-radius: 30px;
+    /* margin-top: 160px; */
+    background-color: white;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+.pimg-a{
+    height: 250px;
+    margin-left:20px;
+    margin-right:20px;
+    margin-top: -170px;
+    border-radius: 30px;
+    /* background-color: white;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px; */
+
+    /* margin-top: -50px; */
+}
